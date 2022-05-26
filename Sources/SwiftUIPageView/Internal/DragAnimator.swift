@@ -6,6 +6,7 @@
 
 import SwiftUI
 
+@available(macOS 11, *)
 internal struct DragAnimator: AnimatableModifier {
     @State private var workItem: DispatchWorkItem? = nil
     
